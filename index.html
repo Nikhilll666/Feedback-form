@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="heading">Feedback Form</h1>
+        <div class="body">
+            <h3 class="heading">Let Us Know How is Our Hotel Service</h3>
+        <table>
+            <p>Enter Your Username:-<input type="text" name="username" placeholder="Enter Your Username"></p>
+            <p><input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </p>
+            <p>Enter Your Email:-<input type="email" pattern="[a-zA-Z0-9]+" placeholder="Enter Your Email" id="email"></p>
+            <p>Enter Your Age:-<input type="number" name="Age" placeholder="Enter Your Age" id="age"></p>
+            <p>Enter Your Number;-<input type="number" name="Number" placeholder="Enter Your Number" id="num"></p>
+            <p>How Is Our Current Service:-<select name="" id="choice">
+                    <option value="Good">Good</option>
+                    <option value="Bad">Bad</option>
+                    <option value="Worst">Worst</option>
+                </select></p>
+            <form>
+                <h5>How Many Days You Spend</h5>
+                <p><label for="radio">1 Day:</label>
+                    <input type="radio" id="checkbox" name="checkbox">
+                </p>
+                <p><label for="radio">2 Day:</label>
+                    <input type="radio" id="checkbox" name="checkbox">
+                </p>
+                <p><label for="checkbox">3 Day:</label>
+                    <input type="radio" id="checkbox" name="checkbox">
+                </p>
+                <p><label for="checkbox">More Than 3 Day:</label>
+                    <input type="radio" id="checkbox" name="checkbox">
+                </p>
+            </form>
+            <p>Enter Your Feedback:-
+        </div>
+                <br>
+                <textarea name="comment" rows="4" cols="50" class="feedback">
+</textarea>
+            </p>
+        </table>
+    </div>
+</body>
+
+</html>
